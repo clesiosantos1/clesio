@@ -200,6 +200,74 @@ main .container{
      .empresa{
         font-size: 17px;
      }
+    }
+
+    .servindo{
+        display: flex;
+        justify-content: center;
+        padding: 4rem;
+    }
+
+    .imagem{
+        width: 5em;
+
+    }
+    .letra_preta{
+        font-weight: 700;
+    }
+
+    .ser{
+        padding: 70px;
+    }
+
+    @media (max-width: 960px) {
+        
+        .servindo{
+            display: flex;
+            flex-direction: column;
+        text-align: center;
+        }
+        .ser{
+            padding: 29px;
+        }
+    }
+
+
+    .principal{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sua{
+        font-size: 40px;
+    }
+
+    .itens{
+        padding: 50px;
+        
+    }
+    .pequena{
+        width: 33em;
+       border-radius: 8px;
+    }
+
+    .leva{
+        margin-top: 40px;
+    }
+
+    .usuario{
+     font-weight: 700;
+        font-size: 20px;
+    }
+
+    @media (max-width: 960px) {
     
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
+    .pequena{
+        width: 100%;
+    }
     
     }
