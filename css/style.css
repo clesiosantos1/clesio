@@ -384,3 +384,48 @@ main .container{
             margin: 5px;
         }
     }
+
+    .rester{
+        display: flex;
+       justify-content: space-between;
+      
+    }
+
+    .Rstudio{
+        padding: 50px;
+        margin: 30px;
+    }
+
+    footer{
+        background-color: #14424b;
+        color: white;
+        font-size: 18px;
+    }
+
+    .icon{
+      margin-top: 20px;
+      display: flex;
+    }
+
+    .imagem_icon{
+        padding: 7px;
+    }
+
+    .link_white{
+        color: white;
+    }
+
+    @media (max-width:960px) {
+        .rester{
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            justify-content: space-between;
+        }
+        .Rstudio{
+            padding: 9px;
+            font-size: 25px;
+            margin: 2px;
+        }
+    }
