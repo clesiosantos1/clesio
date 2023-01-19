@@ -379,9 +379,11 @@ main .container{
             font-size: 28px;
         }
         input{
-            width: 16em;
+            width: 14em;
             padding: 10px;
-            margin: 5px;
+            margin: 16px;
+            margin: 4px;
+            margin-left: 5px;
         }
     }
 
