@@ -271,3 +271,58 @@ main .container{
     }
     
     }
+
+    .deste{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .caerd{
+        background-color: #faf9f9;
+        padding: 4rem;
+    }
+    .caerd:hover{
+        background-image: var(--degrade-btn);
+        border-radius: 5px;
+    }
+
+    .icon{
+        width: 4rem;
+    }
+
+    .orange{
+        padding: 10px 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+    background-image: var(--degrade-btn);
+    }
+
+    .tamanho{
+        font-size: 28px;
+    }
+
+    .blue{
+        color: rgb(22, 22, 238);
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .lugares{
+        font-size: 2.5rem;
+        padding: 9px;
+    }
+    
+
+    @media (max-width: 960px) {
+        .deste{
+            display: flex;
+            flex-direction: column;
+       
+        }
+        .caerd{
+            margin: 5px;
+        }
+    }
